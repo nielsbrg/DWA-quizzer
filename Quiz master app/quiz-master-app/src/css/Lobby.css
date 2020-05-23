@@ -1,0 +1,53 @@
+.text {
+    text-align: left !important;
+}
+
+.App-title {
+    margin-bottom: 3%;
+}
+
+.title {
+    color: white;
+    text-align: left;
+    padding: 0;
+}
+#ListOptionsPanel {
+    box-shadow: 3px 3px 5px #888888;
+    width: 100%;
+    margin-bottom: 5%;
+}
+#quizInfo {
+    padding: 0 15px 0 15px;
+}
+
+#participantDiv #ParticipantsList #list {
+    box-shadow: 3px 3px 5px #888888;
+    background-color: #f3f3f3;
+}
+.connectionStatusText {
+    font-size: 0.4em !important;
+    display: inline-block;
+    margin-left: 5px;
+}
+.startQuizButton {
+    display: block !important;
+    margin-top: 3%;
+    width: 100% !important;
+    margin-bottom: 5%;
+    padding: 20px;
+}
+.applicantListCol {
+    padding-right: 0;
+}
+.applicantButtons button {
+    display: inline-block;
+    margin: 0;
+}
+@media only screen and (max-width : 768px) {
+    #ListOptionsPanel {
+        margin-bottom: 0;
+    }
+}
+@media (min-width: 992px) {
+
+}

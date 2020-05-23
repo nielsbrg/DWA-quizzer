@@ -1,0 +1,30 @@
+.selectQuestionHeaderButton {
+    width:100%;
+    margin-top: 20%;
+}
+.questionBox {
+    background-color: white;
+    margin-bottom: 2%;
+    border-radius: 5px;
+    border: 1px solid #A9A9A9;
+    display: table;
+    width: 100%;
+    padding: 1%;
+    box-shadow: 3px 3px 5px #888888;
+}
+.questionBox .questionBoxText {
+    display: table-cell;
+    vertical-align: middle;
+}
+#currentCategory {
+    color: white;
+    font-weight: bold;
+}
+.questionSelectHeader {
+    margin-bottom: 5%;
+}
+.startQuestionButton {
+    width: 25%;
+    font-weight: bold;
+    font-size: 1.5em;
+}

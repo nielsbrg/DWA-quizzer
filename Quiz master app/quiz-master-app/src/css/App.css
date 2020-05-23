@@ -1,0 +1,52 @@
+html {
+  background-color: #6ACCCB;
+}
+
+.App-title {
+    color: white;
+    font-size: 5em;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.regularCol {
+    padding: 0;
+}
+
+.text {
+  color: white;
+  font-weight: normal;
+  font-size: 1.75em;
+}
+
+.button {
+  background-color: #434343 !important;
+  color: white !important;
+  border-color: #434343 !important;
+  box-sizing: border-box !important;
+  width: 100%;
+}
+
+.inactive {
+    display: none;
+}
+
+.active {
+    display: block;
+}
+
+.error {
+    font-size: 1.5em;
+    color: red;
+}
+
+.loading {
+    font-size: 1.5em;
+    color: yellow;
+}
+
+.success {
+    color: #6DFD6F;
+    font-size: 2em;
+    font-weight: bold;
+}

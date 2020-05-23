@@ -1,0 +1,43 @@
+#categorySelectText {
+    color: white;
+    text-align:center;
+}
+
+.categoryBox {
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin-right: 5%;
+    min-height: 65px;
+    height: 100%;
+    display: table;
+    margin-bottom: 5%;
+    box-shadow: 3px 3px 5px #888888;
+}
+
+.categoryBox .categoryBoxText {
+    margin: 0;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#selectedCategories {
+    color: white;
+    font-weight: bold;
+}
+
+.selected {
+    box-shadow: inset 0 0 50px #6DFD6F !important;
+    border: 3px solid #6DFD6F !important;
+}
+
+#startRoundButton {
+    width: 35%;
+    font-weight: bold;
+    font-size: 2em;
+    border-radius: 5px;
+}
+
+#validationErrorsStartRound {
+    margin-bottom: 2%;
+}

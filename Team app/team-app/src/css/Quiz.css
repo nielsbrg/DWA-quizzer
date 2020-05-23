@@ -1,0 +1,18 @@
+#questionAnswerArea {
+    border-radius: 10px;
+    width: 100%;
+    min-height: 100px;
+    padding: 20px;
+}
+
+#questionAnswerCol {
+    margin-top: 2%;
+}
+#quizInformation {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#changeAnswerButton {
+    width: 25%;
+    display: inline-block;
+}

@@ -1,0 +1,33 @@
+{
+  "name": "quizzer-server",
+  "version": "1.0.0",
+  "description": "\"Express nodeJS server quizzer\"",
+  "main": "app.js",
+  "scripts": {
+    "start": "node src\\server.js",
+    "test": "nyc .\\node_modules\\.bin\\mocha .\\test"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "chai": "^4.1.2",
+    "chai-joi": "^1.1.0",
+    "compression": "^1.7.1",
+    "config": "^1.27.0",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "express-validation": "^1.0.2",
+    "joi": "^13.0.1",
+    "joi-objectid": "^2.0.0",
+    "mocha": "^4.0.1",
+    "mongodb": "^2.2.33",
+    "mongoose": "^4.12.4",
+    "morgan": "^1.9.0",
+    "supertest": "^3.0.0",
+    "ws": "^3.2.0"
+  },
+  "author": "Niels Bergervoet",
+  "license": "ISC",
+  "devDependencies": {
+    "nyc": "^11.3.0"
+  }
+}

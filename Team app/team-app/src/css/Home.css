@@ -1,0 +1,22 @@
+.App {
+    text-align: center;
+    background: #6ACCCB;
+}
+.App-title {
+    color: white;
+    font-size: 5em;
+    margin-bottom: 10%;
+}
+
+.formControls {
+    margin-bottom: 10%;
+}
+
+.startQuizButton .button {
+    margin-top: 5% !important;
+    font-size: 2em;
+    width: 100%;
+}
+.reconnectButton {
+    width: 25% !important;
+}

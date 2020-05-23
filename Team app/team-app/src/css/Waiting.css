@@ -1,0 +1,11 @@
+.cancelButton {
+    width: 48% !important;
+    margin-right: 2%;
+    display: inline-block !important;
+}
+.readyButton {
+    width: 50% !important;
+}
+.activeReadyButton {
+    display: inline-block;
+}

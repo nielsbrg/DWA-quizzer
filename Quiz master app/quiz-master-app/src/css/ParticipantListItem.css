@@ -1,0 +1,18 @@
+.ParticipantItem .content {
+    background-color: white;
+    margin: 0;
+    padding: 5px;
+    border-bottom: 1px solid #d4d4d4;
+}
+.connectionStatus {
+}
+.button {
+    display: inline-block;
+}
+.participantName {
+    text-align: left;
+    padding-top: 5px;
+}
+.kickUserButton {
+    margin-left: 50%;
+}

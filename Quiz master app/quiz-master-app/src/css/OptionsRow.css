@@ -1,0 +1,41 @@
+
+.button {
+    width: auto;
+}
+#leftButton {
+    margin-right: 1%;
+}
+#ListOptionsPanel {
+    background-color: #F3F3F3;
+}
+.optionsRow {
+    padding: 10px;
+    border-bottom: 1px solid #d4d4d4;
+}
+.searchIcon {
+    color: gainsboro;
+}
+.searchInput {
+    margin-bottom: 0;
+}
+.kickAllButton {
+    margin-left: 50%;
+}
+@media only screen and (max-width : 768px) {
+    .searchInput {
+        margin-bottom: 10px;
+    }
+    .kickAllButton {
+        margin-left: 0;
+    }
+}
+@media (min-width: 1200px) {
+    .kickAllButton {
+        margin-left: 0;
+    }
+}
+@media (min-width: 992px) {
+    .kickAllButton {
+        margin-left: 30%;
+    }
+}

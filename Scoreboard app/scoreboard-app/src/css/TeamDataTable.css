@@ -1,0 +1,36 @@
+#teamDataTables {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.dataTable {
+    display: table;
+    background-color: white;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border-style: hidden;
+    box-shadow: 0 0 0 1px #DDDDDD;
+    font-size: 1.25em;
+}
+
+.dataTable .dataTableHeading:first-child {
+    border-radius: 10px;
+}
+
+.dataTableRow { display: table-row; }
+.dataTableHeading { display: table-header-group; }
+.dataTableHeading:first-child {
+    border-radius: 10px;
+}
+.dataTableBody { display: table-row-group; }
+.dataTableFooter { display: table-footer-group; }
+
+.dataTableCell, .dataTableHead {
+    display: table-cell;
+    padding: 5px;
+    border: 1px solid #DDDDDD;
+}
+
+.teamName {
+    font-weight: bold;
+}

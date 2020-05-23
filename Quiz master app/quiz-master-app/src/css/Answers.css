@@ -1,0 +1,70 @@
+#answersDiv {
+    padding-left:30px;
+    padding-right: 30px;
+}
+.answerBox {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.answerText {
+    padding: 2% 3%;
+}
+.answerBoxButtons {
+    padding-bottom: 10%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.answerBoxButtons > .button:nth-child(1) {
+    width: 48%;
+    margin-right: 2%;
+}
+.answerBoxButtons > .button:nth-child(2) {
+    width: 48%;
+    margin-left: 2%;
+}
+
+.answerBoxContent {
+    border: 2px solid #949494;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    box-shadow: 3px 3px 5px #888888;
+}
+
+.approved {
+    box-shadow: inset 0 0 150px #6DFD6F;
+    border: 3px solid #6DFD6F;
+}
+
+.disapproved {
+    box-shadow: inset 0 0 150px #d40400;
+    border: 3px solid #ff0003;
+}
+
+.answerText {
+    font-size: 2em;
+    word-wrap: break-word;
+}
+
+.onNextQuestion {
+    font-size: 1.5em;
+    font-weight: bold;
+    width: 35%;
+}
+#answersDiv {
+    margin-bottom: 5%;
+}
+
+@media only screen and (max-width : 500px) {
+    .answerBoxButtons > .button {
+        width: 100% !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        margin-bottom: 2% !important;
+    }
+    .answerBoxButtons {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}

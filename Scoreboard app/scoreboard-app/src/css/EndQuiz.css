@@ -1,0 +1,32 @@
+.endQuizItemBox {
+    background-color: white;
+    margin-bottom: 2%;
+    border-radius: 7px;
+}
+.first > p {
+    font-size: 3em;
+    font-weight: bold;
+}
+.second > p {
+    font-size: 2.25em;
+}
+.third > p {
+    font-size: 1.5em;
+}
+
+.first {
+    box-shadow: inset 0 0 150px #fdd92e;
+}
+.second {
+    box-shadow: inset 0 0 150px #d4d4d4;
+}
+.third {
+    box-shadow: inset 0 0 150px #855245;
+}
+.other {
+    box-shadow: inset 0 0 150px #515151;
+}
+.results {
+    padding-left: 15px;
+    padding-right: 15px;
+}

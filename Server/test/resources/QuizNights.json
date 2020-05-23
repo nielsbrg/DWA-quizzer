@@ -1,0 +1,32 @@
+[
+  {
+    "password": "peswurt",
+    "quizMaster": "kwismaster",
+    "_id": "59f5c0e54150dd0e10acee4d",
+    "teams": [],
+    "isActive": true
+  },
+  {
+    "_id": "59f5c1208a903d0cd45228d8",
+    "password": "12345",
+    "quizMaster": "quizzmaster123",
+    "teams": [
+      {
+        "name": "team1",
+        "roundResults": [],
+        "totalRoundPoints": 0
+      },
+      {
+        "name": "team2",
+        "roundResults": [],
+        "totalRoundPoints": 0
+      },
+      {
+        "name": "team3",
+        "roundResults": [],
+        "totalRoundPoints": 0
+      }
+    ],
+    "isActive": true
+  }
+]

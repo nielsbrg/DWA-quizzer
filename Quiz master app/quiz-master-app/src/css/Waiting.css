@@ -1,0 +1,13 @@
+#closeQuestionButton {
+    font-weight: bold;
+    width: 35%;
+    font-size: 2em;
+}
+#questionDisplayText {
+    font-size: 3em;
+    text-align: center !important;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
